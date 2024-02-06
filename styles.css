@@ -1,6 +1,8 @@
 body {
     background-color: #121826;
-    background-image: url(blur-radial.svg);
+    background-image: url(blur-radial.svg), url(blur-radial.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -11,6 +13,12 @@ body {
     align-items: center;
     font-family: "Inter", sans-serif;
 
+}
+#card-topics {
+    display: none;
+}
+#card-summary {
+    display: none;
 }
 .heading {
     font-size: 20px;
@@ -114,7 +122,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-.circle-step-steped:hover {
+.circle-step-steped.active {
     background-color: #4A5567;
 }
 .circle-step {
@@ -123,7 +131,7 @@ body {
     height: 8px;
     border-radius: 50%;
 }
-.circle-step:hover {
+.circle-step.active {
     background-color: #845EEE;
 }
 
@@ -139,11 +147,16 @@ body {
     width: 100%;
     border-radius: 10px;
     padding: 10px;
-    border: 1px solid #4D5562
+    border: 1px solid #4D5562;
+    color: #A1A1A9;
+}
+.div-topic-element.active {
+    background-color: #652CD1;
+    border: 1px solid #845EEE;
+    color: #E5E7EB;
 }
 .topic-element {
     width: 100%;
-    color: #A1A1A9;
     font-size: 12px;
 }
 .div-summary{
