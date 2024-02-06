@@ -8,20 +8,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <section id="card-register" class="style-card">
+        <form id="card-register" class="style-card">
             <span class="heading">Register</span>
             <div class="div-input">
                 <div class="div-input-element">
                     <label class="label-text">Name</label>
-                    <input class="input-style" placeholder="enter your name"></input>
+                    <input id="input-name" class="input-style" required placeholder="enter your name"></input>
                 </div>
                 <div class="div-input-element">                
                     <label class="label-text">Email</label>
-                    <input class="input-style" placeholder="example@gmail.com"></input>
+                    <input id="input-email" type="email" required class="input-style" placeholder="example@gmail.com"></input>
                 </div>
             </div>
-            <button class="button" >Continue</button>
-        </section>
+            <button id="btn-page-1" class="button" >Continue</button>
+        </form>
         <section class="steps">
             <span class="span-step">Step 1 of 3</span>
             <div class="step-circles">
@@ -31,4 +31,5 @@
             </div>
         </section>
     </body>
+    <script type="text/javascript" src="script.js"></script>
 </html>

@@ -146,3 +146,20 @@ body {
     color: #A1A1A9;
     font-size: 12px;
 }
+.div-summary{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.div-summary-tags{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.label-tag{
+    color: #A1A1A9;
+}
+.tag-content{
+    color:#E5E7EB
+}
