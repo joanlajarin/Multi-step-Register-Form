@@ -1,0 +1,105 @@
+body {
+    background-color: #121826;
+    background-image: url(blur-radial.svg);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+
+}
+.heading {
+    font-optical-sizing: auto;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    font-size: 20px;
+    color: #E5E7EB;
+    align-self: flex-start;
+}
+
+.tab-text {
+    font-optical-sizing: auto;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+.body-text {
+    font-optical-sizing: auto;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    font-size: 16px;
+    color: #E5E7EB;
+}
+.label-text {
+    font-size: 12px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    color: #A1A1A9;
+}
+.small-text {
+    font-size: 12px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    color: #4D5562;
+}
+.style-section {
+    background-color:#212936;
+    width: 350px;
+    height: 280px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #4D5562;
+    border-width: 1px;
+}
+.div-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.button {
+    background-image:  linear-gradient(to top,#652CD1 100%, #ffff 50%);
+    color: #E5E7EB;
+    align-self: center;
+    padding: 10px 35px 10px 35px;
+    border-radius: 20px;
+    border-style: none;
+    font-family: "Inter", sans-serif;
+   
+}
+
+.input-style {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    max-height: 4em;
+    height: 3em;
+    border-radius: 10px;
+    background-color: var(--background-col);
+    color: var(--text-col);
+    font-family: "Inter", sans-serif;
+
+}
+.input-style::placeholder {
+    margin-left: 10px;
+    position: absolute;
+    top: 30%;
+}
